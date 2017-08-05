@@ -92,7 +92,7 @@ function createtemplate(data){
             		<a href="/">Home</a>
             		<hr/>
             		<div><h3>${head}</h3></div>
-            		<div>${date}/div>
+            		<div>${date}</div>
             		<div>
             		${content}</div>
             		</div>
