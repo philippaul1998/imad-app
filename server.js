@@ -8,11 +8,7 @@ var articleone = {
     title: 'Article One|Philip',
     head: 'Article One',
     date: '5 August 2017',
-    content: ` <div class="container">
-		<a href="/">Home</a>
-		<hr/>
-		<div><h3>Article One</h3></div>
-		<div>5 August 2017</div>
+    content: ` 
 		<div>
 		<p>This is an article.This is an article.
 		This is an article.This is an article.This is an article.
@@ -31,7 +27,7 @@ var articleone = {
 		This is an article.This is an article.
 		This is an article.This is an article.
 		This is an article.This is an article.
-		</p></div></div>`
+		</p></div>`
     
 };
 function createtemplate(data){
