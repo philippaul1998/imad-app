@@ -4,30 +4,76 @@ var path = require('path');
 
 var app = express();
 app.use(morgan('combined'));
-var articleone = {
-    title: 'Article One|Philip',
-    head: 'Article One',
-    date: '5 August 2017',
-    content: ` 
-		<p>This is an article.This is an article.
-		This is an article.This is an article.This is an article.
-		This is an article.This is an article.
-		This is an article.This is an article.
-		This is an article.This is an article.
-		</p>
-		<p>This is an article.This is an article.
-		This is an article.This is an article.This is an article.
-		This is an article.This is an article.
-		This is an article.This is an article.
-		This is an article.This is an article.
-		</p>
-		<p>This is an article.This is an article.
-		This is an article.This is an article.This is an article.
-		This is an article.This is an article.
-		This is an article.This is an article.
-		This is an article.This is an article.
-		</p>`
-    
+var articles= {
+    'article-one': {
+        title: 'Article One|Philip',
+        head: 'Article One',
+        date: '5 August 2017',
+        content: ` 
+    		<p>This is an article.This is an article.
+    		This is an article.This is an article.This is an article.
+    		This is an article.This is an article.
+    		This is an article.This is an article.
+    		This is an article.This is an article.
+    		</p>
+    		<p>This is an article.This is an article.
+    		This is an article.This is an article.This is an article.
+    		This is an article.This is an article.
+    		This is an article.This is an article.
+    		This is an article.This is an article.
+    		</p>
+    		<p>This is an article.This is an article.
+    		This is an article.This is an article.This is an article.
+    		This is an article.This is an article.
+    		This is an article.This is an article.
+    		This is an article.This is an article.
+    		</p>`},
+    'article-two': {
+        title: 'Article Two|Philip',
+        head: 'Article Two',
+        date: '10 August 2017',
+        content: ` 
+    		<p>This is an article.This is an article.
+    		This is an article.This is an article.This is an article.
+    		This is an article.This is an article.
+    		This is an article.This is an article.
+    		This is an article.This is an article.
+    		</p>
+    		<p>This is an article.This is an article.
+    		This is an article.This is an article.This is an article.
+    		This is an article.This is an article.
+    		This is an article.This is an article.
+    		This is an article.This is an article.
+    		</p>
+    		<p>This is an article.This is an article.
+    		This is an article.This is an article.This is an article.
+    		This is an article.This is an article.
+    		This is an article.This is an article.
+    		This is an article.This is an article.
+    		</p>`},
+    'article-three': {
+        title: 'Article Three|Philip',
+        head: 'Article Threeo',
+        date: '15 August 2017',
+        content: ` 
+    		<p>This is an article.This is an article.
+    		This is an article.This is an article.This is an article.
+    		This is an article.This is an article.
+    		This is an article.This is an article.
+    		This is an article.This is an article.
+    		</p>
+    		<p>This is an article.This is an article.
+    		This is an article.This is an article.This is an article.
+    		This is an article.This is an article.
+    		This is an article.This is an article.
+    		This is an article.This is an article.
+    		</p>
+    		<p>This is an article.This is an article.
+    		This is an article.This is an article.This is an article.
+    		This is an article.This is an article.
+    		This is an article.This is an article.
+    		This is an article.This is an article.
+    		</p>`}
 };
 function createtemplate(data){
     var title=data.title;
@@ -64,17 +110,11 @@ app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 
-app.get('/article-one', function (req, res) {
-  res.send(createtemplate(articleone));
+app.get('/:articleName', function (req, res) {
+ var articleName=req.params.articleName;
+  res.send(createtemplate(articles[articleName]));
 });
 
-app.get('/article-two', function (req, res) {
-  res.send("2nd article");
-});
-
-app.get('/article-three', function (req, res) {
-  res.send("3rd article");
-});
 app.get('/ui/batman.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'batman.png'));
 });
