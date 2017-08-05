@@ -9,7 +9,6 @@ var articleone = {
     head: 'Article One',
     date: '5 August 2017',
     content: ` 
-		<div>
 		<p>This is an article.This is an article.
 		This is an article.This is an article.This is an article.
 		This is an article.This is an article.
@@ -27,7 +26,7 @@ var articleone = {
 		This is an article.This is an article.
 		This is an article.This is an article.
 		This is an article.This is an article.
-		</p></div>`
+		</p>`
     
 };
 function createtemplate(data){
