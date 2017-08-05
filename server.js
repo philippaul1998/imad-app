@@ -53,7 +53,7 @@ function createtemplate(data){
             	</body>
             </html>
     `;
-    return htmltempalte;
+    return htmltemplate;
     
 }
 app.get('/', function (req, res) {
