@@ -7,7 +7,7 @@ button.onclick = function(){
       if(request.readyState === XMLHttpRequest.DONE){
         if(request.status === 200){
              var span=document.getElementById("num");
-             span.innerHTML=request.responseText;
+             span.innerHTML=request.responseText.toString();
         }  
       }  
     };
