@@ -1,12 +1,8 @@
 console.log('Loaded!');
-var element = document.getElementById('text');
-element.innerHTML='Philip';
-var img= document.getElementById('img');
-var marginRight=0;
-function moveLeft(){
-    marginRight+=1;
-    img.style.marginRight=marginRight+'px';
-}
-img.onclick =function(){
-  var interval = setInterval(moveLeft,5);  
+var button= document.getElementById("btn");
+var counter=0;
+button.onclick = function(){
+  counter+=1;
+  var span=document.getElementById("num");
+  span.innerHTML=counter.toString();
 };
