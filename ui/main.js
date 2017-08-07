@@ -8,7 +8,7 @@ button.onclick = function(){
         if(request.status === 200){
              var counter=request.reponseText;
              var span=document.getElementById("num");
-             span.innerHTML=counter.toString();
+             span.innerHTML=counter;
         }  
       }  
     };
