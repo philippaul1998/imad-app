@@ -1,8 +1,18 @@
 console.log('Loaded!');
 var button= document.getElementById("btn");
-var counter=0;
+
 button.onclick = function(){
-  counter+=1;
-  var span=document.getElementById("num");
-  span.innerHTML=counter.toString();
+    var request =new XMLHttpRequest();
+    request.onreadystatechange = function() {
+      if(request.readyState=== XMLHttpRequest.DONE){
+        if(request.status===200){
+             var counter=request.reponseText;
+             var span=document.getElementById("num");
+             span.innerHTML=counter.toString();
+        }  
+      }  
+    };
+    requst.open('GET','http://u98philips.imad.hasura-app.io/counter');
+    request.send(null);
+  
 };
