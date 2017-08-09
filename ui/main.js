@@ -34,6 +34,6 @@ submit.onclick = function(){
     };
     var name_input=document.getElementById('name');
     var val=name_input.value;
-    request.open('GET','http://u98philips.imad.hasura-app.io/submit-name?name='+name,true);
+    request.open('GET','http://u98philips.imad.hasura-app.io/submit-name?name='+val,true);
     request.send(null);
 };
