@@ -139,9 +139,9 @@ animation-duration: 2s;
 input[type = "submit"]{
     
     width : 100px;
-    border : 2px solid  blue;
-    background-color : blue;
+    border : 2px solid  #3A20AC;
+    background-color : #3A20AC;
     color: white;
     border-radius:5px;
-    height:25px;
+    height:22px;
 }
