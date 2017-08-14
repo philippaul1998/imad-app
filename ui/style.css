@@ -175,8 +175,6 @@ input[type = "submit"]{
 input[type = "submit"]:hover{
     
     background: linear-gradient(to top , #3b5998 , #8b9dc3);
-    animation-duration: 1s;
-  animation-fill-mode: both;
 }
 
 input[type="text"]:focus{
@@ -184,5 +182,18 @@ input[type="text"]:focus{
     border-radius: 10px;
 }
     
+button{
+    width : 100px;
+    font-family: sans-serif;
+    font-weight:300;
+    border : 2px solid  #3b5998;
+    background: linear-gradient(#3b5998 , #8b9dc3);
+    color: white;
+    border-radius:10px;
+    height:22px;
+}button:hover{
+    
+    background: linear-gradient(to top , #3b5998 , #8b9dc3);
 }
+
 
