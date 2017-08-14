@@ -40,7 +40,7 @@ body {
   }
 
   40% {
-    transform: perspective(430px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+    transform: perspective(300px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
     animation-timing-function: ease-out;
   }
 
@@ -55,7 +55,7 @@ body {
   }
 
   to {
-    transform: perspective(400px);
+    transform: perspective(300px);
     animation-timing-function: ease-in;
   }
 }
