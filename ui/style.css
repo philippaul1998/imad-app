@@ -139,6 +139,6 @@ animation-duration: 2s;
 input[type = "submit"]{
     
     width : 100px;
-    border : 2px solid  red;
-    background-color : linear-gradient(red , yellow);
+    border : 2px solid  blue;
+    background-color : blue;
 }
