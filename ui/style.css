@@ -38,7 +38,7 @@ body{
 
 }
 .page-bg {
-  background: url(http://d3ajvuw23j7pxv.cloudfront.net/upld_437377623778707689_image2.jpg);
+  background: blue;
   background-size:cover;
    background-repeat:no-repeat;
   -webkit-filter: blur(5px);
