@@ -78,7 +78,7 @@ body {
 
 .rubberBand {
   animation-name: rubberBand;
-  animation-duration: 1s;
+  animation-duration: 6s;
   animation-fill-mode: both;
 }
 
