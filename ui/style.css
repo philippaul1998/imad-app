@@ -139,7 +139,7 @@ animation-duration: 2s;
 input[type = "submit"]{
     
     width : 100px;
-    border : 2px sloid red;
-    background : linear-gradient(red , yello);
+    border : 2px solid  red;
+    background-color : linear-gradient(red , yello);
 }
 }
