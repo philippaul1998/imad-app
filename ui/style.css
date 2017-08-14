@@ -121,7 +121,7 @@ animation-duration: 2s;
   animation-name: fadeInRightBig;
   animation-duration: 2s;
   animation-fill-mode: both;
-  animation-timing-function: linear;
+  animation-timing-function: ease-in-out;
 }
 @keyframes fadeInDown {
   from {
