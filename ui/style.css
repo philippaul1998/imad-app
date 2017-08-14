@@ -50,7 +50,7 @@ body {
   }
 
   80% {
-    transform: perspective(400px) scale3d(.95, .95, .50);
+    transform: perspective(400px) scale3d(.95, .95, .10);
     animation-timing-function: ease-in;
   }
 
