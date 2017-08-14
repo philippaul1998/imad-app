@@ -35,27 +35,27 @@ body {
 
 @keyframes flip {
   from {
-    transform: perspective(300px) rotate3d(0, 1, 0, -360deg);
+    transform: perspective(100px) rotate3d(0, 1, 0, -360deg);
     animation-timing-function: ease-out;
   }
 
   40% {
-    transform: perspective(300px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+    transform: perspective(100px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
     animation-timing-function: ease-out;
   }
 
   50% {
-    transform: perspective(300px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+    transform: perspective(100px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
     animation-timing-function: ease-in;
   }
 
   80% {
-    transform: perspective(300px) scale3d(.95, .95, .95);
+    transform: perspective(100px) scale3d(.95, .95, .95);
     animation-timing-function: ease-in;
   }
 
   to {
-    transform: perspective(300px);
+    transform: perspective(100px);
     animation-timing-function: ease-in;
   }
 }
