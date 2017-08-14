@@ -171,7 +171,7 @@ input[type = "submit"]:hover{
 
 input[type="text"]:focus{
     border: 2px solid red;
-    border-radius: 2px;
+    border-radius: 10px;
 }
     
 }
