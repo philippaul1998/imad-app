@@ -140,6 +140,7 @@ input[type = "submit"]{
     
     width : 100px;
     font-family: sans-serif;
+    font-weight:bold;
     border : 2px solid  #3b5998;
     background-color : #3b5998;
     color: white;
