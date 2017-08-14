@@ -92,7 +92,7 @@ body {
   }
 }
 
-hr {
+.left {
   animation-name: fadeInLeftBig;
 }
 
