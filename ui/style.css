@@ -99,6 +99,8 @@ body {
 }
 hr {
 animation-name: fadeInLeftBig;
+animation-duration: 2s;
+  animation-fill-mode: both;
 
 }
 
