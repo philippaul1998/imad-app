@@ -88,7 +88,7 @@ function createtemplate(data){
             		<link href="/ui/style.css" rel="stylesheet"/>
             	</head>
             	<body>
-            	    <div class="container">
+            	    <div class="container fadeInUp animate">
             		<a href="/">Home</a>
             		<hr/>
             		<div><h3>${head}</h3></div>
