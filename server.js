@@ -90,7 +90,7 @@ function createtemplate(data){
             	<body>
             	    <div class="container fadeInUp animated">
             		<a href="/">Home</a>
-            		<div class="fadeInLeftBig animated"><hr/><div>
+            	   	<hr/>
             		<div><h3>${head}</h3></div>
             		<div>${date}</div>
             		<div>
