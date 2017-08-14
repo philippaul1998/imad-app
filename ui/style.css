@@ -17,6 +17,8 @@ body {
 
 .img-medium {
     height: 200px;
+    width:200px;
+    borde-radius:50%;
 }
 .container{
     max-width:800px;
