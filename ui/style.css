@@ -147,9 +147,6 @@ input[type = "submit"]{
     border-radius:5px;
     height:22px;
 }
-input[type = "submit"]:hover{
-    animation-name: rotateIn;
-}
 @keyframes rotateIn {
   from {
     transform-origin: center;
@@ -162,4 +159,7 @@ input[type = "submit"]:hover{
     transform: none;
     opacity: 1;
   }
+}
+input[type = "submit"]:hover{
+    animation-name: rotateIn;
 }
