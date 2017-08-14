@@ -60,7 +60,7 @@ body {
   }
 }
 
-.animated.flip {
+.flip {
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
   animation-name: flip;
