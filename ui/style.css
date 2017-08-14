@@ -135,3 +135,11 @@ animation-duration: 2s;
 .fadeDown {
   animation-name: fadeInDown;
 }
+
+input[type = "submit"]{
+    
+    width : 100px;
+    border : 2px sloid red;
+    background : linear-gradient(red , yello);
+}
+}
