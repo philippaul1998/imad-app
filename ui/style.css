@@ -142,4 +142,5 @@ input[type = "submit"]{
     border : 2px solid  blue;
     background-color : blue;
     color: white;
+    border-radius:5px;
 }
