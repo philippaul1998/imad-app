@@ -169,7 +169,7 @@ input[type = "submit"]:hover{
   animation-fill-mode: both;
 }
 
-input[type="text"]:active{
+input[type="text"]:focus{
     border: 2px solid red;}
     
 }
