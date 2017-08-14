@@ -140,6 +140,5 @@ input[type = "submit"]{
     
     width : 100px;
     border : 2px solid  red;
-    background-color : linear-gradient(red , yello);
-}
+    background-color : linear-gradient(red , yellow);
 }
