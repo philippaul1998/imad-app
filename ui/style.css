@@ -162,4 +162,7 @@ input[type = "submit"]{
 }
 input[type = "submit"]:hover{
     animation-name: rotateIn;
+    animation-duration: 1s;
+  animation-fill-mode: both;
+}
 }
