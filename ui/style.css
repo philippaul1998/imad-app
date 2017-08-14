@@ -144,7 +144,7 @@ input[type = "submit"]{
     border : 2px solid  lightgrey;
     background: linear-gradient(#3b5998 , #8b9dc3);
     color: white;
-    border-radius:5px;
+    border-radius:10px;
     height:22px;
 }
 @keyframes rotateIn {
