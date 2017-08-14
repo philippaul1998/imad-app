@@ -27,10 +27,6 @@ body {
     padding-right:20px;
 
 }
-.animated {
-  animation-duration: 1s;
-  animation-fill-mode: both;
-}
 
 @keyframes fadeInUp {
   from {
@@ -46,5 +42,7 @@ body {
 
 .fadeInUp {
   animation-name: fadeInUp;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }
 
