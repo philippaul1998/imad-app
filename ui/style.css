@@ -28,57 +28,42 @@ body {
 
 }
 
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translate3d(0, 100%, 0);
-  }
-
-  to {
-    opacity: 1;
-    transform: none;
-  }
-}
-
-.fadeInUp {
-  animation-name: fadeInUp;
+.animated {
   animation-duration: 1s;
   animation-fill-mode: both;
 }
-@keyframes rubberBand {
-  from {
-    transform: scale3d(1, 1, 1);
-  }
 
-  30% {
-    transform: scale3d(1.25, 0.75, 1);
+@keyframes flip {
+  from {
+    transform: perspective(400px) rotate3d(0, 1, 0, -360deg);
+    animation-timing-function: ease-out;
   }
 
   40% {
-    transform: scale3d(0.75, 1.25, 1);
+    transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+    animation-timing-function: ease-out;
   }
 
   50% {
-    transform: scale3d(1.15, 0.85, 1);
+    transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+    animation-timing-function: ease-in;
   }
 
-  65% {
-    transform: scale3d(.95, 1.05, 1);
-  }
-
-  75% {
-    transform: scale3d(1.05, .95, 1);
+  80% {
+    transform: perspective(400px) scale3d(.95, .95, .95);
+    animation-timing-function: ease-in;
   }
 
   to {
-    transform: scale3d(1, 1, 1);
+    transform: perspective(400px);
+    animation-timing-function: ease-in;
   }
 }
 
-
-.rubberBand {
-  animation-name: rubberBand;
-  animation-duration: 1s;
-  animation-fill-mode: both;
+.animated.flip {
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+  animation-name: flip;
 }
+
 
