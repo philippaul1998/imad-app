@@ -161,7 +161,7 @@ input[type = "submit"]{
   }
 }
 input[type = "submit"]:hover{
-    animation-name: rotateIn;
+    
     background: linear-gradient(to top , #3b5998 , #8b9dc3);
     animation-duration: 1s;
   animation-fill-mode: both;
