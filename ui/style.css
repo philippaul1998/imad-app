@@ -142,7 +142,7 @@ input[type = "submit"]{
     font-family: sans-serif;
     font-weight:300;
     border : 2px solid  #3b5998;
-    background: linear-gradient(#3b5998 , #3b5990);
+    background: linear-gradient(#3b5998 , #3a5998);
     color: white;
     border-radius:5px;
     height:22px;
