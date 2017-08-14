@@ -183,7 +183,7 @@ input[type="text"]:focus{
 }
     
 button{
-    width : 100px;
+    width : 75px;
     font-family: sans-serif;
     font-weight:300;
     border : #3b5998;
