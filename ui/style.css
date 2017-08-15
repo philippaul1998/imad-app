@@ -23,14 +23,12 @@ body{
 #image{
     height:20px;
     width:20px;
-    color:white;
-    src:url(http://www.carvertise.com/img/mobile_menu.png);
 }
 #image:hover{
     animation-name: rotateIn;
   animation-duration: .5s;
   animation-fill-mode: both;
-  background:url(http://www.essential-tremor.com/wp-content/themes/insightec/images/close_grey.png);
+ 
 }
 
 .img-medium {
