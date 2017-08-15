@@ -191,7 +191,9 @@ animation-duration: 2s;
     transform: none;
   }
 }
-
+hr{
+    color:while;
+}
 .right {
   animation-name: fadeInRightBig;
   animation-duration: 2s;
