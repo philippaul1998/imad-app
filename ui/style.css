@@ -269,7 +269,7 @@ button{
     color: white;
     border-radius:5px;
     height:auto;
-    padding:5px 2px;
+    padding:2px 5px;
 }button:hover{
     
     background:#8b9dc3;
