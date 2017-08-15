@@ -28,6 +28,7 @@ body{
     animation-name: rotateIn;
   animation-duration: .5s;
   animation-fill-mode: both;
+  display: block;
  
 }
 
@@ -78,10 +79,10 @@ body{
 }
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
+/*.dropdown:hover .dropdown-content {
     display: block;
     
-}
+}*/
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 /*.dropdown:hover #image {
