@@ -31,7 +31,9 @@ body{
   
  
 }
-
+.head{
+    background:#f9342a;
+}
 .img-medium {
     height: 200px;
     width:200px;
