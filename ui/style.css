@@ -24,6 +24,11 @@ body{
     height:20px;
     width:20px;
 }
+#image:hover{
+    animation-name: rotateIn;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
 
 .img-medium {
     height: 200px;
