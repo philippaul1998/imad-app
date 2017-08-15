@@ -81,6 +81,9 @@ body{
 .dropdown:hover .dropdown-content {
     display: block;
     animation-name:fadeInUp;
+     animation-duration: .5s;
+  animation-fill-mode: both;
+    
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
