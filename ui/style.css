@@ -2,7 +2,7 @@ body{
     
     font-family: sans-serif;
     
-    background:#916464;
+    background:#fcf2f2;
     background-repeat:no-repeat;
     background-size:cover;
     
@@ -42,7 +42,7 @@ body{
 .container{
     max-width:800px;
     margin: 0 auto;
-    color: #f1f1f1;
+    color: #301c1c;
     font-family: sans-serif;
     padding-left:20px;
     padding-right:20px;
