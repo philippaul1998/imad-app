@@ -130,8 +130,8 @@ app.get('/:articleName', function (req, res) {
   res.send(createtemplate(articles[articleName]));
 });
 
-app.get('/ui/batman.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'batman.png'));
+app.get('/ui/blur.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'blur.png'));
 });
 
 
