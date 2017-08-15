@@ -131,7 +131,7 @@ app.get('/:articleName', function (req, res) {
 });
 
 app.get('/ui/blur.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'blur.png'));
+  res.sendFile(path.join(__dirname, 'ui', 'blur.jpg'));
 });
 
 
