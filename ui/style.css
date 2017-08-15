@@ -2,7 +2,7 @@ body{
     
     font-family: sans-serif;
     
-    background:#e8f4f3;
+    background:#415946;
     background-repeat:no-repeat;
     background-size:cover;
     
@@ -31,9 +31,7 @@ body{
   
  
 }
-.head{
-    background:#f9342a;
-}
+
 .img-medium {
     height: 200px;
     width:200px;
