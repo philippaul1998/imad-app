@@ -80,7 +80,7 @@ body{
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
-    animation-name:fadeInUp;
+    animation-name:fadeInDown;
      animation-duration: .5s;
   animation-fill-mode: both;
     
