@@ -247,7 +247,10 @@ input[type = "submit"]:hover{
     
      background:#8b9dc3;
 }
-
+input[type="text"]{
+    border: 1px;
+}
+    
 input[type="text"]:focus{
     border: 1px solid blue;
 }
