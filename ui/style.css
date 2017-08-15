@@ -219,16 +219,16 @@ hr{
   animation-name: fadeInDown;
 }
 
-input[type = "submit"]{
+input[type="submit"]{
     
-    width : 75px;
+    width : auto;
     font-family: sans-serif;
     font-weight:300;
     border : #3b5998;
     background: #3b5998;
     color: white;
     border-radius:5px;
-    height:20px;
+    height:auto;
 }
 @keyframes rotateIn {
   from {
@@ -248,7 +248,7 @@ input[type = "submit"]:hover{
      background:#8b9dc3;
 }
 input[type="text"]{
-    border: 1px;
+    border: 1px solid grey;
     border-radius:2px;
 }
     
@@ -257,19 +257,18 @@ input[type="text"]:focus{
 }
     
 button{
+     
     width : auto;
     font-family: sans-serif;
     font-weight:300;
-    border :  1px  solid white;
-    background: transparent;
+    border : #3b5998;
+    background: #3b5998;
     color: white;
     border-radius:5px;
-    height:20px;
+    height:auto;
 }button:hover{
     
-    background:white;
-    border : 1px solid #4a4a4a;
-     color: #4a4a4a;
+    background:#8b9dc3;
     
     
 }
