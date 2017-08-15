@@ -24,7 +24,7 @@ body{
     height:20px;
     width:20px;
     color:white;
-    background:url(http://www.carvertise.com/img/mobile_menu.png);
+    src:url(http://www.carvertise.com/img/mobile_menu.png);
 }
 #image:hover{
     animation-name: rotateIn;
