@@ -229,7 +229,7 @@ input[type="submit"]{
     color: white;
     border-radius:5px;
     height:auto;
-    padding:5px 2px;
+    padding:2px 5px;
 }
 @keyframes rotateIn {
   from {
@@ -251,8 +251,9 @@ input[type = "submit"]:hover{
 input[type="text"]{
     border: 1px solid grey;
     border-radius:2px;
-    background:grey;
-    color:#f1f1f1;
+    background:#f1f1f1;
+    color:#301c1c;
+    padding:2px 5px;
 }
     
 input[type="text"]:focus{
