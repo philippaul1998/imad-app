@@ -192,7 +192,8 @@ animation-duration: 2s;
   }
 }
 hr{
-    color:while;
+    color:white;
+    width:5px;
 }
 .right {
   animation-name: fadeInRightBig;
